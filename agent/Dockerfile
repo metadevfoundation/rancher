@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.2
+FROM armhf-ubuntu:latest
 RUN apt-get update && \
      apt-get install --no-install-recommends -y \
      arptables \
