@@ -1,4 +1,4 @@
-FROM rancher/dind:v0.3.0
+FROM armhfbuild/dind:latest
 COPY ./scripts/bootstrap /scripts/bootstrap
 RUN /scripts/bootstrap
 WORKDIR /source
